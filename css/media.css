@@ -1,0 +1,321 @@
+@media(max-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+
+    .wrap-promo{
+        padding-left: 3em;
+    }
+
+    .promo-btn{
+        padding: 1em;
+    }  
+
+    .column4{
+        display: block;
+    }
+}
+
+@media(max-width: 1200px){
+    :root{
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 640px){
+    :root{
+        font-size: 0.875em;
+    }
+
+    .container{
+        max-width: 640px;
+    }
+
+    .title p{
+        display: none;
+    }
+
+    .intro{
+        height: 100%;
+        padding-bottom: 2em;
+    }
+
+    .promo{
+        height: 100%;
+    }
+
+    .wrap-promo{
+        display: block;
+        text-align: center;
+        padding: 2em 0 0;
+        
+    }
+
+    .promo-btn {
+        padding: 2em;
+    }
+
+    .promo-text h3{
+        font-size: 1.7em;
+    }
+
+    .promo-text p {
+        font-size: 1.3em;
+    }
+
+    .content{
+        text-align: center;
+    }
+
+    .line{
+        margin-left: 17em;
+    }
+
+    .wrapperitem{
+        width: 50%;
+    }
+
+    .works{
+        max-width: calc(100% - 1em);
+    }
+
+    .works h4{
+        font-size: 1.4em;
+    }
+
+    .wrapVideo {
+        display: block;
+        text-align: center;
+    }
+
+    .video-line{
+        margin-left: 15em;
+    }
+
+    .video-title h2{
+        padding: 1em 0 0;
+    }
+
+    .video-title p {
+        max-width: 518px;
+        padding-top: 1em;
+    }
+
+    .video-btn {
+    padding-top: 3.5em;
+    }
+
+    .title-testomonial p{
+        max-width: 552px;
+    }
+
+    .title-testomonial h3 {
+        padding: 1.875em 0 7.625em;
+    }
+
+    .footer-logos a {
+        font-size: 17px;
+        padding-right: 1em;
+    }
+
+    .box{
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 320px){
+    header{
+        height: 80px;
+    }
+    
+    :root{
+        font-size: 0.875em;
+    }
+
+    .container{
+        max-width: 300px;;
+    }
+
+    .intro{
+        height: 100%;
+        padding-bottom: 2em;
+    }
+
+    .logo{
+        padding: 1em;
+    }
+
+    .title h1{
+        font-size: 4em;
+        padding-bottom: 0.5em;
+    }
+
+    .title p{
+        font-size: 1em;
+    }
+
+    .promo{
+        height: 100%;
+    }
+
+    .promo-btn{
+        padding: 0.625em;
+    }
+
+    .promo-btn a{
+        font-size: 0.625em;
+        padding: 0.7em;
+    }
+
+    .wrap-promo{
+        padding: 1em;
+        display: block;
+        text-align: center;
+    }
+
+    .promo-text h3 {
+        font-size: 1em;
+    }
+
+    .promo-text p {
+        font-size: 0.625em;
+    }
+
+    .content{
+        margin: 0;
+    }
+
+    .wrapperitem {
+        width: 50%;
+    }
+
+    .service{
+        height: 170px;
+    }
+
+    .service h3{
+        font-size: 0.7em;
+        letter-spacing: 1px;
+
+    }
+
+    .title-work h2 {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    .works {
+        max-width: calc(100% - 1em);
+    }
+
+    .wrapVideo{
+        display: block;
+        padding: 0;
+    }
+
+    .wrapVideo img{
+        max-width: 100%;
+    }
+
+    .video-line{
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    .video-title h2{
+        text-align: center;
+    }
+
+    .video-btn {
+        padding: 2em;
+    }
+
+    .wrapGalery{
+        display: block;
+        padding-left: 10px;
+    }
+    
+    .proto-box img{
+        max-width: 90%;
+    }
+
+    .galery .text a{
+        font-size: 1em;
+    }
+
+    .galery .text{
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .column4 {
+        display: grid;
+    }
+
+    .column + .column {
+        margin-left: 0.5em;
+    }
+
+    .scrabs {
+        padding: 5em 0;
+    }
+
+    .title-testomonial p {
+        padding-left: 1em;
+        color: #4A4A4A;
+        font-size: 1em;
+        max-width: 100%;
+    }
+
+    .title-testomonial h3 {
+        font-size: 1em;
+        padding: 1em 0 5em;
+    }
+
+    .main-footer > h2 {
+        font-weight: normal;
+        font-size: 1.3em;
+        line-height: 1em;
+        letter-spacing: 1px;
+        padding: 3em 0 1em;
+        text-align: center;
+    }
+
+    .footer-logos {
+        display: grid;
+        border: none;
+    }
+
+    .footer-logos a {
+        border: none;
+        font-size: 20px;
+        padding: 1em;
+    }
+
+    .widgets {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .widgets h2 { 
+        font-size: 1em;
+        padding: 2em 0 1em;
+    }
+
+    .widgets a:last-child{
+        padding-bottom: 1em;
+    }
+
+    .help, .menu-w {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    .adress, .contacts {
+        max-width: 100%;
+        letter-spacing: 2px;
+    }
+}
