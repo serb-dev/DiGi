@@ -16,13 +16,34 @@
     }
 }
 
-@media(max-width: 1200px){
+@media(min-width: 1200px){
     :root{
         font-size: 1em;
     }
+
+    .footer-logos a {
+        border-right: 1px solid white;
+        padding: 1em 7.1em 1em 7.1em !important;
+    }
 }
 
-@media(max-width: 640px){
+@media(min-width: 768px){
+    .footer-logos a {
+        border-right: 1px solid white;
+        padding: 0.5em 5em 0.5em 5em;
+    }
+
+    .main-footer > h2 {
+        padding: 8em 0 5em 1em;
+    }
+    
+    .footer-logos {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px){
     :root{
         font-size: 0.875em;
     }
@@ -106,7 +127,11 @@
     }
 
     .title-testomonial p{
-        max-width: 552px;
+        font-size: 1.5em !important;
+    }
+
+    .scrabs {
+        padding: initial;
     }
 
     .title-testomonial h3 {
@@ -189,6 +214,10 @@
         width: 50%;
     }
 
+    .line {
+        margin-left: 7.5em;
+    }
+
     .service{
         height: 170px;
     }
@@ -228,6 +257,10 @@
 
     .video-btn {
         padding: 2em;
+    }
+
+    .video-btn a{
+        padding: 1em;
     }
 
     .wrapGalery{
@@ -317,5 +350,9 @@
     .adress, .contacts {
         max-width: 100%;
         letter-spacing: 2px;
+    }
+
+    .arrow {
+        padding: 1em 1em 0.6875em;
     }
 }

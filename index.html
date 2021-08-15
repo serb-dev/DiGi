@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="file:///C:/Users/%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80/Desktop/fontawesome-free-5.14.0-web/css/all.css">
+    <!-- <link rel="stylesheet" href="file:///C:/Users/%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80/Desktop/fontawesome-free-5.14.0-web/css/all.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">
+            <div class="logo" id="logo">
                 <img src="img/Logo.png" alt="Logo">
             </div>  
             <div class="mnu-btn">
@@ -286,10 +286,10 @@
                     <h2>Мы хотели бы услышать все о вашем проекте.<br>
                         Свяжись с нами.</h2>
                     <div class="footer-logos">
-                         <a href="/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="/"><i class="fab fa-google-plus-g"></i></a>
-                         <a href="/"><i class="fab fa-twitter"></i></a>
-                        <a href="/"> <i class="fab fa-pinterest"></i></a>
+                         <a href="/" id="facebook"><img src="img/facebook.svg" alt=""></a>
+                        <a href="/" id="google-plus"><img src="img/google-plus.svg" alt=""></a>
+                         <a href="/" id="pinterest"><img src="img/pinterest.svg" alt=""></i></a>
+                        <a href="/" id="twitter"><img src="img/twitter.svg" alt=""></a>
                     </div>
                     <div class="widgets">
                         <div class="contacts box">
@@ -321,8 +321,7 @@
     <div class="copyright">
         <div class="container">
             <div class="arrow">
-                <h3>ВВЕРХ</h3>
-                <i class="fas fa-chevron-up"></i>
+                <h3>ВВЕРХ <a href="#logo" class="arrow-up"></a></h3>
             </div>
         </div>
     </div>
